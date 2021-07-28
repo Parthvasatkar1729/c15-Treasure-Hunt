@@ -75,7 +75,7 @@ function createJwellery() {
 }
 
 function createSword(){
-  if (World.frameCount % 30 == 0) {
+  if (World.frameCount % 330 == 0) {
   var sword = createSprite(Math.round(random(50,width-50),40,10,10));
   sword.addImage(swordImg);
   sword.scale=0.1;
